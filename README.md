@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://www.npmjs.com/package/@nu-appdev/northwestern-tokens"><img src="https://img.shields.io/npm/v/@nu-appdev/northwestern-tokens?style=flat&color=4E2A84" alt="npm Version"></a>
-    <a href="https://common.northwestern.edu/dept/4.0/"><img src="https://img.shields.io/badge/Department_Templates-4.0-4E2A84?style=flat" alt="Department Templates 4.0"></a>
+    <img src="https://img.shields.io/badge/Department_Templates-4.0-4E2A84?style=flat" alt="Department Templates 4.0">
     <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-4.x-06B6D4?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS Version"></a>
 </p>
 
@@ -14,7 +14,7 @@
 
 ## About
 
-The package is CSS only: no components, no JavaScript and no framework-specific selectors. It tracks **[Department Templates 4.0](https://common.northwestern.edu/dept/4.0/)**, the university's current web template. dept 4.0 ships a compiled stylesheet and no design tokens, so this package reimplements its palette, fonts and square corners as tokens you can build on.
+The package is CSS only: no components, no JavaScript and no framework-specific selectors. It tracks **Department Templates 4.0**, the university's current web template. dept 4.0 ships a compiled stylesheet and no design tokens, so this package reimplements its palette, fonts and square corners as tokens you can build on.
 
 Colors come from the brand [color palette](https://www.northwestern.edu/brand/visual-identity/color-palettes/) and [secondary palette](https://www.northwestern.edu/brand/visual-identity/color-palettes/secondary-palette/) pages. Fonts load from the dept 4.0 CDN.
 
