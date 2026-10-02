@@ -1,0 +1,70 @@
+{
+    "name": "@nu-appdev/northwestern-tokens",
+    "version": "0.0.0",
+    "description": "Northwestern University brand colors, fonts and radius as CSS custom properties and a Tailwind CSS v4 theme",
+    "license": "MIT",
+    "author": "Danny Foster <danny@northwestern.edu>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NIT-Administrative-Systems/northwestern-tokens.git"
+    },
+    "homepage": "https://github.com/NIT-Administrative-Systems/northwestern-tokens#readme",
+    "bugs": {
+        "url": "https://github.com/NIT-Administrative-Systems/northwestern-tokens/issues"
+    },
+    "keywords": [
+        "northwestern",
+        "design-tokens",
+        "css",
+        "css-custom-properties",
+        "tailwindcss",
+        "theme"
+    ],
+    "type": "module",
+    "style": "./css/index.css",
+    "exports": {
+        ".": {
+            "style": "./css/index.css",
+            "default": "./css/index.css"
+        },
+        "./tokens.css": "./css/tokens.css",
+        "./fonts.css": "./css/fonts.css",
+        "./tailwind.css": "./css/tailwind.css",
+        "./package.json": "./package.json"
+    },
+    "files": [
+        "CHANGELOG.md",
+        "css/"
+    ],
+    "sideEffects": [
+        "*.css"
+    ],
+    "publishConfig": {
+        "access": "public",
+        "provenance": true
+    },
+    "scripts": {
+        "verify": "pnpm check && pnpm lint:css && pnpm check:deps && pnpm test",
+        "fix": "biome check --write && stylelint \"css/**/*.css\" --fix",
+        "check": "biome check",
+        "check:deps": "knip",
+        "lint:css": "stylelint \"css/**/*.css\"",
+        "test": "vitest run",
+        "test:watch": "vitest"
+    },
+    "engines": {
+        "node": ">= 22.0.0",
+        "npm": "please-use-pnpm",
+        "pnpm": ">= 10.0.0",
+        "yarn": "please-use-pnpm"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.5.14",
+        "knip": "^6.38.0",
+        "postcss": "^8.5.28",
+        "stylelint": "^17.15.0",
+        "stylelint-config-recess-order": "^7.8.0",
+        "stylelint-config-standard": "^40.0.0",
+        "vitest": "^4.1.11"
+    }
+}

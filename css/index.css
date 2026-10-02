@@ -1,0 +1,7 @@
+/* ==========================================================================
+   Northwestern Tokens — fonts and custom properties
+   The default entry point. Tailwind v4 projects also import tailwind.css.
+   ========================================================================== */
+
+@import "./fonts.css";
+@import "./tokens.css";
