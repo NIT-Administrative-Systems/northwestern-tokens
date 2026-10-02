@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- **npm and Yarn installs no longer warn or fail on `engines`.** 1.0.0 published the repository's development `engines` field, which asks for pnpm and rejects npm and Yarn. npm printed an `EBADENGINE` warning on every install, and projects with `engine-strict` could not install the package at all. The package now declares no `engines`: it is plain CSS and has no runtime requirement.
+
 ## [1.0.0] - 2026-10-02
 
 ### Added

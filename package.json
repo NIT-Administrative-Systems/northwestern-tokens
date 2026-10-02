@@ -52,12 +52,6 @@
         "test": "vitest run",
         "test:watch": "vitest"
     },
-    "engines": {
-        "node": ">= 22.0.0",
-        "npm": "please-use-pnpm",
-        "pnpm": ">= 10.0.0",
-        "yarn": "please-use-pnpm"
-    },
     "devDependencies": {
         "@biomejs/biome": "^2.5.14",
         "knip": "^6.38.0",
