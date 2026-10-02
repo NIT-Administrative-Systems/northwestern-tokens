@@ -1,6 +1,6 @@
 {
     "name": "@nu-appdev/northwestern-tokens",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Northwestern University brand colors, fonts and radius as CSS custom properties and a Tailwind CSS v4 theme",
     "license": "MIT",
     "author": "Danny Foster <danny@northwestern.edu>",
