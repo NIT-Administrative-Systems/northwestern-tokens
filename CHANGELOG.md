@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-10-02
+
 ### Fixed
 
 - **npm and Yarn installs no longer warn or fail on `engines`.** 1.0.0 published the repository's development `engines` field, which asks for pnpm and rejects npm and Yarn. npm printed an `EBADENGINE` warning on every install, and projects with `engine-strict` could not install the package at all. The package now declares no `engines`: it is plain CSS and has no runtime requirement.
@@ -21,5 +23,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Square corners.** `--nu-border-radius` is `0`, and `tailwind.css` points `--radius-xs` through `--radius-4xl` at it.
 - **Purple 90 is `#5b3b8c`.** The brand page publishes Purple 90 as RGB 91, 59, 14, which is brown. The blue channel is read as 140: the page's CMYK values for Purple 90 have no yellow, 140 sits between Purple 100 and Purple 80, and both themes already use `#5b3b8c`. See the [README](README.md#purple-90).
 
-[Unreleased]: https://github.com/NIT-Administrative-Systems/northwestern-tokens/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/NIT-Administrative-Systems/northwestern-tokens/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/NIT-Administrative-Systems/northwestern-tokens/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/NIT-Administrative-Systems/northwestern-tokens/releases/tag/v1.0.0
